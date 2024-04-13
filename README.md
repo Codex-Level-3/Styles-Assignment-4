@@ -58,4 +58,4 @@ The favicon came from favicon.io.
 
 ## Deployment
 
-Netlify:
+Netlify: https://kitchen-chronicles.netlify.app/

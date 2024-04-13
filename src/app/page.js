@@ -9,7 +9,7 @@ export default function Home() {
       <NavigationBar />
       <Hero />
       <main className="grid">
-        <h2 id="featured" className="m-2">
+        <h2 id="featured" className="m-2 text-2xl">
           Featured Recipes:
         </h2>
         <Dashboard />
