@@ -40,6 +40,7 @@ export default function Dashboard() {
     <section className="flex flex-wrap gap-3 justify-center mb-3 ">
       {recipeNames.map((recipeName, index) => (
         <RecipeCards
+          key={index}
           img={index + ".jpg"}
           recipeName={recipeName}
           description={description[index]}
