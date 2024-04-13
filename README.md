@@ -1,3 +1,35 @@
+# Styles Assignment 4
+
+## Objective
+
+Create a simple, yet elegant recipe webpage utilizing Tailwind CSS for layout and styling. This assignment focuses on building a user-friendly interface with card elements to display recipes, aiming to develop your skills in responsive web design and the integration of CSS frameworks.
+
+## Kitchen Chronicles Recipe Webpage
+
+This project is a simple recipe webpage built with React, utilizing React Bootstrap components, Framer Motion animations, and Tailwind CSS for styling. The webpage displays a collection of recipe cards, showcasing various recipes with images, descriptions, and additional details.
+
+## Project Structure - Components
+
+### Dashboard.jsx
+
+This component renders a collection of recipe cards using the `RecipeCards` component.
+
+### RecipeCards.jsx
+
+Displays individual recipe details including the recipe name, description, category, cooking time, and calories. The component utilizes Framer Motion for hover effects.
+
+### Footer.jsx
+
+Displays a footer with copyright information and a link to the creator's GitHub profile.
+
+### Hero.jsx
+
+A hero section with a background image, welcoming message, and a call-to-action button.
+
+### NavigationBar.jsx
+
+A navigation bar at the top of the page for easy navigation between different sections of the webpage.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -18,19 +50,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Photo credits
 
-## Learn More
+The images used on the recipe cards came from Taylor Kiser on unsplash.  
+The Hero Image came from Louis Hansel on unsplash.  
+The favicon came from favicon.io.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Netlify:
