@@ -37,7 +37,7 @@ export default function Dashboard() {
   ];
   const calories = ["150", "500", "175", "250", "400", "350"];
   return (
-    <section className="flex flex-wrap gap-3 justify-center mb-3 ">
+    <section className="flex flex-wrap gap-4 justify-center mb-5 ">
       {recipeNames.map((recipeName, index) => (
         <RecipeCards
           key={index}
